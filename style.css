@@ -9,7 +9,34 @@ h1{
 }
 
 
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+    
+}
+ul {
+    list-style: none;
+   padding: 0;
+}
+
+li{
+    background-color: lightblue;
+    margin: 5PX;
+    padding: 10PX;
+    border-radius: 50%;
+    
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font: bold;
+}
 button{
     padding: 10px 20px;
-    font-size: 10px;
+    margin-top: 15px;
+    font-size: 16px;
 }
