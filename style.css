@@ -3,6 +3,9 @@ body{
     margin:10px;
     padding:20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    
 }
 h1{
     color:white;
@@ -39,4 +42,18 @@ button{
     padding: 10px 20px;
     margin-top: 15px;
     font-size: 16px;
+    font-family:  Helvetica;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: black;
+    transform: scale(1.05);
+}
+a:hover{
+    color: red;
 }
