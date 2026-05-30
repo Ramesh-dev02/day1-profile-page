@@ -8,15 +8,16 @@ body{
     
 }
 h1{
-    color:white;
+    color:red;
 }
 
 
 
 img {
-    width: 150px;
+    width: 30%;
+    max-width: 150px;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 50%;
     
     
@@ -38,7 +39,7 @@ a{
     color: blue;
     font: bold;
 }
-button{
+#btn1{
     padding: 10px 20px;
     margin-top: 15px;
     font-size: 16px;
@@ -50,10 +51,51 @@ button{
     cursor: pointer;
     transition: 0.3s;
 }
-button:hover{
+#btn2{
+    font-size: 16px;
+    width:auto;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family:  Helvetica;
+}
+#btn2:hover{
+background-color: black;
+transform: scale(1.05);
+}
+
+#btn1:hover{
     background-color: black;
     transform: scale(1.05);
 }
 a:hover{
     color: red;
+}
+.skills{
+ background-color: black;
+ color: aliceblue;
+ display: flex;
+ text-align: center;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-self: center;
+
+}
+.skill{
+    background-color: blue;
+    border-radius: 8px;
+    padding: 10px 15px;}
+.skill:hover{
+    background-color: black;
+    transform: scale(1.05);
+    
+}
+.container{
+    background-color: white;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
 }
