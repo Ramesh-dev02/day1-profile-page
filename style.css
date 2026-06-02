@@ -5,6 +5,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    background: linear-gradient(to right,blueviolet,red);
     
 }
 h1{
@@ -91,6 +92,8 @@ a:hover{
 .skill:hover{
     background-color: black;
     transform: scale(1.05);
+    transition: 0.3s;
+    transform: translateY(-5px);
     
 }
 .container{
@@ -98,4 +101,5 @@ a:hover{
     border-radius: 8px;
     width: 80%;
     max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
